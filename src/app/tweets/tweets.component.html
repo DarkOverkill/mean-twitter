@@ -1,0 +1,11 @@
+<p>
+  tweets works!
+  {{mode}}
+</p>
+<!-- <form class="well" (submit)="click($event)">
+      <div class="form-group">
+        <input type="text" [(NgForm)]="title" name="title" class="form-control" placeholder="Add Task...">
+      </div>
+</form> -->
+<input placeholder="username" (keyup)="onKey($event)" name="username" /><button (click)="submit()">get tweets</button>
+<ng4-twitter-timeline [dataSrc]="{sourceType: 'profile',screenName: 'Dark_Overkill'}" [opts]="{tweetLimit: 20}"></ng4-twitter-timeline>
