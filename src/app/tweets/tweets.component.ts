@@ -7,8 +7,8 @@ import { NgModel } from '@angular/forms'
 // import getBearerToken from 'get-twitter-bearer-token';
 
 // const getBearerToken = require('get-twitter-bearer-token')
-const twitter_consumer_key = 'ICIdkAdxuVfBHGSdHM67Cs0ps';
-const twitter_consumer_secret = 'LXgPHb3OZGDyARpsA6a8iW3fN6hv56W24sIuLPYa1guQ88LAAk';
+const twitter_consumer_key = '';
+const twitter_consumer_secret = '';
 
 @Component({
   selector: 'app-tweets',
@@ -42,13 +42,13 @@ export class TweetsComponent implements OnInit {
     // var client = new Twitter({
       // consumer_key: twitter_consumer_key,
       // consumer_secret: twitter_consumer_secret,
-      // access_token_key: '967710942543994882-zWZmOeYr5EQcayFcDL4nHa7hkihc1nc',
-      // access_token_secret: 'rMChnYXCVehUfzn5IIBAkSE7TM28a3UEsyHSf0ax2NbLa'
+      // access_token_key: '',
+      // access_token_secret: ''
     // });
 
     // var client = new Twitter({
-      // consumer_key: 'ICIdkAdxuVfBHGSdHM67Cs0ps',
-      // consumer_secret: 'LXgPHb3OZGDyARpsA6a8iW3fN6hv56W24sIuLPYa1guQ88LAAk',
+      // consumer_key: '',
+      // consumer_secret: '',
       // bearer_token: ''
     // });
   }
