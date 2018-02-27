@@ -5,10 +5,10 @@ import { Http } from '@angular/http';
 // import Twit from 'twit';
 // import getBearerToken from 'get-twitter-bearer-token';
 
-const twitter_consumer_key = 'ICIdkAdxuVfBHGSdHM67Cs0ps';
-const twitter_consumer_secret = 'LXgPHb3OZGDyARpsA6a8iW3fN6hv56W24sIuLPYa1guQ88LAAk';
-const twitter_access_token_key = '967710942543994882-zWZmOeYr5EQcayFcDL4nHa7hkihc1nc';
-const twitter_access_token_secret = 'rMChnYXCVehUfzn5IIBAkSE7TM28a3UEsyHSf0ax2NbLa';
+const twitter_consumer_key = '';
+const twitter_consumer_secret = '';
+const twitter_access_token_key = '';
+const twitter_access_token_secret = '';
 
 @Injectable()
 export class TweetsService {
